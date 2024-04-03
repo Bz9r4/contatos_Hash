@@ -58,7 +58,28 @@ O programa funciona como um sistema de lista de contatos, onde o usuário pode r
 
 7. **Encerramento do Programa:** O programa continua a exibir o menu interativo até que o usuário escolha a opção de sair. Quando isso acontece, o programa exibe uma mensagem de encerramento e termina sua execução.
 
-## 4. Conclusão
+## 4. Problemas no Desenvolvimento
+
+Durante o desenvolvimento do código, foram identificados alguns problemas e foram implementadas soluções para corrigi-los:
+
+1. **Problema:** A busca por contatos estava retornando apenas o primeiro contato encontrado, mesmo que houvesse mais contatos com o mesmo nome.
+
++ Solução: Modificamos a lógica da função de busca (TabelaHash::buscar) para percorrer todas as listas de contatos na tabela hash e adicionar todos os contatos com o nome correspondente à chave de busca ao vetor contatosEncontrados.
+
+2. **Problema:** A remoção de um contato específico estava enfrentando problemas de compilação devido ao acesso incorreto aos elementos da tabela hash.
+
++ Solução: Refaturamos a função TabelaHash::removerEspecifico para corrigir o acesso aos elementos da tabela hash, garantindo a remoção correta do contato especificado.
+
+3. **Problema:** O código estava gerando erros de compilação relacionados ao acesso incorreto aos elementos de std::vector e à adição de elementos em std::vector na função TabelaHash::buscar.
+
++ Solução: Corrigimos o acesso aos elementos de std::vector na função TabelaHash::buscar, além de ajustar a adição de contatos encontrados ao vetor contatosEncontrados.
+
+4. **Problema:** Foi solicitado que a busca por contatos fosse possível utilizando apenas partes do nome, não apenas o nome completo.
+
++ Solução: Modificamos a lógica da função TabelaHash::buscar para verificar se o nome do contato contém a chave de busca, permitindo a busca por partes do nome.
+
+
+## 5. Conclusão
 Em conclusão, o sistema de lista de contatos implementado oferece uma solução eficiente e robusta para gerenciar informações de contato. Utilizando uma tabela hash com tratamento de colisão por endereçamento aberto e função de mapeamento baseada no método de multiplicação, o programa demonstra uma abordagem sólida para lidar com um grande volume de dados de maneira rápida e eficaz.
 
 Ao longo da análise do código e do funcionamento do programa, podemos observar que ele oferece funcionalidades essenciais para inserção, busca e remoção de contatos, além de lidar adequadamente com situações como colisões de hash e remoção de contatos específicos.
