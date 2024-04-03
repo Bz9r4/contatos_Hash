@@ -33,7 +33,7 @@ As operações principais da tabela hash, como inserção, busca e remoção, s�
 ### 2.6. Carregamento de Contatos do Arquivo
 Uma função chamada **carregarContatos** é definida para ler os contatos de um arquivo de texto e armazená-los em um vetor.
 
-### 2.7. Função Principal main
+### 2.7. Função Principal `main`
 A função principal **main** controla a execução do programa. Ela inicializa a tabela hash, carrega os contatos do arquivo, exibe um menu interativo e processa as operações escolhidas pelo usuário.
 
 ## 3. Funcionamento do Programa
