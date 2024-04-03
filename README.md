@@ -19,7 +19,7 @@ A estrutura do código pode ser dividida em 7 partes principais:
 Primeiro começamos incluindo as bibliotecas necessárias para operações de entrada/saída, manipulação de arquivos, manipulação de strings e vetor, além da biblioteca <cmath> para funções matemáticas.
 
 ### 2.2. Definição da Estrutura de Contato
-Em seguida, é definida uma estrutura chamada Contato, que contém os campos nome, telefone e email, omde serão armazenado os dados do usuario.
+Em seguida, é definida uma estrutura chamada Contato, que contém os campos nome, telefone e email, onde serão armazenado os dados do usuario.
 
 ### 2.3. Definição da Classe `TabelaHash`
 Uma classe chamada TabelaHash é definida para representar a tabela hash e suas operações. Ela inclui métodos para inserir, buscar e remover contatos, bem como funções auxiliares para calcular os hashes.
