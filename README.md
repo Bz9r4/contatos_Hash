@@ -1,6 +1,6 @@
 # 2 Avaliação Laboratorio de estruturas 2
 # Autores:
-Brendo Duarte Bezerra, Guilheme Nunes Araujo, Carlos Henryque de Andrade Soares.
+Brendo Duarte Bezerra, Guilheme Nunes Araujo, Carlos Henryque de Andrade Soares,, Kayky Brenner Souto Silva.
 
 Função de mapeamento: Método do multiplicação <br>
 Tratamento de colisão (Endereçamento Aberto): Duplo hash.
