@@ -124,12 +124,13 @@ vector<Contato> carregarContatos() {
 
 // Função para exibir o menu e receber a escolha do usuário
 char exibirMenu() {
+    cout << "\n\nHashOctopus 1.0";
     cout << "\n\nMenu:\n";
     cout << "1. Inserir contato\n";
     cout << "2. Buscar contato\n";
     cout << "3. Remover contato específico\n";
     cout << "4. Sair\n";
-    cout << "Escolha uma opção: ";
+    cout << "Digite o numero da opção desejada: ";
     char opcao;
     cin >> opcao;
     return opcao;
