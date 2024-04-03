@@ -22,7 +22,7 @@ Primeiro começamos incluindo as bibliotecas necessárias para operações de en
 Em seguida, é definida uma estrutura chamada Contato, que contém os campos nome, telefone e email, onde serão armazenado os dados do usuario.
 
 ### 2.3. Definição da Classe `TabelaHash`
-Uma classe chamada TabelaHash é definida para representar a tabela hash e suas operações. Ela inclui métodos para inserir, buscar e remover contatos, bem como funções auxiliares para calcular os hashes.
+Uma classe chamada **TabelaHash** é definida para representar a tabela hash e suas operações. Ela inclui métodos para inserir, buscar e remover contatos, bem como funções auxiliares para calcular os hashes.
 
 ### 2.4. Implementação das Funções de Hash
 Duas funções de hash são implementadas: hash e hash2. A função **hash** utiliza o método de multiplicação para calcular o hash das chaves, enquanto a função **hash2** é utilizada para calcular o passo de incremento no tratamento de colisões.
@@ -66,3 +66,4 @@ Ao longo da análise do código e do funcionamento do programa, podemos observar
 Em suma, o sistema de lista de contatos desenvolvido apresenta um bom equilíbrio entre eficiência, funcionalidade e facilidade de uso, fornecendo uma base sólida para futuros desenvolvimentos e personalizações conforme necessário.
 
 ---
+<p align="center"><img src="http://img.shields.io/static/v1?label=STATUS&message=%20CONCLUIDO&color=GREEN&style=for-the-badge"/></p>
